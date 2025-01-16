@@ -13,12 +13,12 @@
 
     <SeriesCard
       v-if="item.first_air_date"
-      :poster_path="tvSeries.poster_path"
-      :name="tvSeries.name"
-      :overview="tvSeries.overview"
-      :first_air_date="tvSeries.first_air_date"
-      :popularity="tvSeries.popularity"
-      :item="tvSeries"
+      :poster_path="item.poster_path"
+      :name="item.name"
+      :overview="item.overview"
+      :first_air_date="item.first_air_date"
+      :popularity="item.popularity"
+      :item="item"
     />
   </div>
 </template>
